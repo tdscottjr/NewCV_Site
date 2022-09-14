@@ -1,0 +1,178 @@
+a {
+  text-decoration: none;
+}
+
+.b li a:hover {
+    color: #00BFFF;
+}
+
+.bio a {
+    color: #00BFFF;
+}
+
+.bio a:hover {
+    color: #ffffff;
+}
+
+.btn {
+  background-color: #00BFFF;
+  border: none;
+  color: #ffffff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.cnt a {
+    color: rgb(26, 198, 255);
+}
+
+.cnt a:hover {
+    color: #ffffff;
+}
+
+.drk-bg {
+  background-color: rgb(38, 38, 38);
+}
+
+.wht-bg {
+  background-color: rgb(255, 255, 255);
+}
+
+.fl_end {
+  justify-content: flex-end;
+}
+
+.fl_sb {
+  justify-content: space-between;
+}
+
+.fl_wrp {
+  flex-wrap: wrap;
+}
+
+.m_b {
+  margin-bottom: auto;
+}
+
+.m_b-3 {
+  margin-bottom: 3rem;
+}
+
+.t_c {
+  text-align: center;
+}
+
+.jcc {
+  justify-content: center;
+}
+
+.float_right {
+  float: right;
+}
+
+.float_left {
+  float: left;
+}
+
+.fntw-200 {
+  font-weight: 200 !important;
+}
+
+.fntw-300 {
+  font-weight: 300 !important;
+}
+
+.fntw-b {
+  font-weight: bold !important;
+}
+
+.fntw-br {
+  font-weight: bolder !important;
+}
+
+.fnt_sz-m {
+  font-size: 1.5rem;
+}
+
+.fnt_sz-l {
+  font-size: 4.5rem;
+}
+
+.fnt_sz-lr {
+  font-size: 7rem;
+}
+
+hr {
+    margin: 100px auto;
+    height: 100%;
+    width: 50%;
+
+}
+
+.pd_rt-2 {
+  padding-right: 2rem;
+}
+
+.pd_rt-4 {
+  padding-right: 4rem;
+}
+
+.nav_bar {
+  display: block;
+  flex-wrap: wrap;
+  padding-left: 0rem;
+  margin-bottom: 0rem;
+  word-spacing: 0.75rem
+}
+
+.nav_head .active {
+    color: #ffffff;
+    border-bottom-color: #ffffff;
+}
+
+.n_lnk {
+  border-bottom: 0.25rem solid transparent;
+  border-bottom-width: 0.25rem;
+  border-bottom-style: solid;
+  border-bottom-color: transparent;
+}
+
+.n_lnk:hover {
+  border-bottom-color: rgb(0, 153, 204);
+  border-bottom-width: 0.25rem;
+}
+
+
+.txt_c-1 {
+  color: #000000;
+}
+
+.txt_c-2 {
+  color: #ffffff;
+}
+
+ol.b {
+  list-style-type: none;
+
+}
+
+@media screen and (min-width: 1024px) {
+  .float_left {
+    text-align: left;
+  }
+}
+
+@media screen and (max-widh: 800px) {
+  ol.b.t_lft-800 {
+    text-align: left;
+  }
+
+  p.txt_c-2.fnt_sz-m {
+    text-align: left;
+  }
+}
