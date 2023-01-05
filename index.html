@@ -9,7 +9,10 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
     <title>CV Site</title>
   </head>
-  <header class="">
+  <video autoplay muted loop id="videoBG">
+    <source src="Black-BG.mp4" type="video/mp4">
+  </video>
+  <header class="viewport-header">
     <div class="m_b">
       <!-- <h1 class="float_left">Welcome</h1> -->
       <nav class="nav_bar .nav_head float_right">
@@ -17,18 +20,70 @@
         <a class="txt_c-2 n_lnk fntw-b" href="portfolio.html">Portfolio</a>
         <a class="txt_c-2 n_lnk fntw-b" href="contact.html">Contact</a>
       </nav>
+      <button class="menu-btn" aria-label="Toggle Primary Navigation Menu" aria-controls="MobileMenu" aria-haspopup="false" type="button" data-role="btn" role="button" tabindex="0" aria-pressed="false" fdprocessedid="5a5mkt">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
     </div>
   </header>
   <br>
   <body class="m_b t_c drk-bg fntw-200">
+    <section id="HeaderZone_2">
     <div>
       <h1 class="t_c txt_c-2 fntw-b fnt_sz-l">Welcome</h1>
       <p class="txt_c-2 fnt_sz-m  bio">Hello, I'm Tyrone a web developer. I have experience as a full time web developer for a digital marketing company.</p>
-      <p class="txt_c-2 fnt_sz-m  bio">Please take a look at my <a href="portfolio.html">portfolio</a> to see some of my past work that I'm proud of.</p>
+    </section>
+    
+  <section id="MainZone">
+      <h2 class="t_c txt_c-2 fntw-b fnt_sz-2">About Me</h2>
+      <div>
+        <div class="abt block-content">
+          <p class="txt_c-2 fnt_sz-m about-bio">My training background has been both unconventional and varied. I possess an Associate’s
+            degree in General Studies of Math and Natural Science from a Community College,
+            during which program I received my initial general education in coding. I then completed a
+            16-week specialized program through an organization constructed to give educational
+            opportunities in information technology to underprivileged populations across the United States. After the program concluded I was then hired as a help desk
+            technician for a leading company in digital marketing program optimization. I then pursued
+            additional training specifically in web development, obtaining a certification in responsive web
+            design (freeCodeCamp) and completing an online bootcamp in full-stack web development (Udemy).
+          </p>
+        </div>
+      </div>
+
+    <div class="block-content-two">
+      <p class="txt_c-2 fnt_sz-m about-bio block-content">Some time after completing the program I transitioned from being a help desk technician to a web developer for a company
+        that specializes in providing customized technology and marketing support. In this position, I worked
+        with the compaines proprietary CMS software to write, maintain, and update HTML/CSS/JavaScript/SQL
+        code to make user-friendly mobile-optimized websites.</p>
+    </div>
+  </section>
+
+  <picture class="img">
+    <img class="t_c txt_c-2 float_left" src="images/Tyrone_Headshot.jpg" alt role="Headshot" loading="lazy">
+  </picture>
+
+<section id="EndZone">
+      <h2 class="t_c txt_c-2 fntw-b fnt_sz-2">Programming Skillset</h2>
+      <div class="box about-bio block-content"> 
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>JQuery</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>SQL</li>
+            <li>MongoDB</li>
+          </ul>
+      </div>
       <p>
         <a href="contact.html" class="btn t_c">Contact Me</a>
       </p>
-      <img class="t_c txt_c-2" src="images/Tyrone_Headshot.jpg" width="200" height="200" alt="Headshot">
+      <br>
     </div>
+</section>
+  
   </body>
 </html>

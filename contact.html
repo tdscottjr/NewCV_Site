@@ -3,12 +3,17 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="form.css">
     <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
     <title>CV Site</title>
+    <script defer src="script.js"></script>
   </head>
+  <video autoplay muted loop id="videoBG">
+    <source src="Black-BG.mp4" type="video/mp4">
+  </video>
   <header class="">
     <div class="m_b">
       <!-- <h1 class="float_left">Welcome</h1> -->
@@ -29,5 +34,47 @@
       <a href="https://www.linkedin.com/in/tyronescottjr/" target="_blank">tyronescottjr</a>
       </div>
     </div>
+
+    
+<form id="contact_form" action="mailto:tdscottjr@gmail.com" method="post" enctype="text/plain">
+    <h3 class="fcf-h3 txt_c-2">Contact Me</h3>
+
+    <fieldset>
+    <ul class="flx">
+      <li class="hlf">
+        <label for="first_name" class="txt_c-2"></label>
+        <input type="text" name="firstname" id="first_name" placeholder="First Name" required>
+      </li>
+
+      <li class="hlf">
+        <label for="last_name" class="txt_c-2"></label>
+        <input type="text" name="lastname" id="last_name" placeholder="Last Name" required>
+      </li>
+
+      <li class="fll">
+        <label for="e_mail" class="txt_c-2"></label>
+        <input type="text" name="email" id="e_mail" placeholder="Email" required>
+        <div class="validation" for="e_mail" data-type="valueMissing">Please enter your Email.</div>
+        <div class="validation" for=e_mail" data-type="typeMismatch">This isn't a valid email address.</div>
+      </li>
+
+      <br>
+
+      <li class="fll">
+        <label for="subject" class="txt_c-2"></label>
+        <textarea name="subject" id="subject" cols="20" rows="10" required></textarea>
+      </li>
+    </ul>
+    </fieldset>
+
+    <br>
+
+      <input class="submit" type="submit" value="Submit">
+
+</form>
+	
+</div>
+
+
   </body>
 </html>

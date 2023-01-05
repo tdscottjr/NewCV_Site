@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+  }
+
+  .fll {
+    width: 100%;
+  }
+
+  .flx {
+    flex-wrap: wrap;
+    position: relative;
+    width: calc(80% + 1.8rem);
+    left: calc(1.8rem * -.5);
+    margin-top: calc( 1.8rem * -.5);
+    margin-bottom: calc( 1.8rem * -.5);
+    align-items: stretch;
+    align-content: space-around;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #0044ff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  
+  }
+
+  .input-text {
+
+    width: 100%;
+    font-size: 100%;
+    text-align: left;
+    padding: 0.5rem 1rem;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 0rem;
+    background-clip: padding-box !important;
+    transition: background-color .3s ease 0s, border-color .3s ease 0s, color .3s ease 0s;
+  
+  }
+  
+  input[type=submit]:hover {
+    background-color: #ff00bf;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+
+  .hlf {
+    width: 50%;
+  
+  }
+
+  ol, ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .validation {
+    color: #f8d303;
+    background: rgba(0,0,0,0.8);
+  }
+  
+  .validation {
+    right: 0;
+    top: 100%;
+    opacity: 0;
+    z-index: 2;
+    display: block;
+    font-size: .8em;
+    padding: 0.5em 1em;
+    position: absolute;
+    visibility: hidden;
+    white-space: nowrap;
+    transition: opacity .3s ease 0s, visibility 0s ease 0s;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
