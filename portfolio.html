@@ -2,98 +2,138 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/b4b6fdb731.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
     <title>CV Site</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   </head>
-  <video autoplay muted loop id="videoBG">
-    <source src="Black-BG.mp4" type="video/mp4">
-  </video>
-  <header class="">
+  <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+      <span class="fs-4 hello-blk">Bienvenue</span>
+    </a>
+    <div class="mobile-container">
+
+      <!-- Top Navigation Menu -->
+      <ul class="nav b nav-pills">
+        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+        <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+
+      <!-- End smartphone / tablet look -->
+      </div>
     <div class="m_b">
       <!-- <h1 class="float_left">Welcome</h1> -->
-      <nav class="nav_bar .nav_head float_right">
+       <nav class="nav_bar .nav_head float_right">
         <a class=" txt_c-2 n_lnk fntw-b" href="index.html">Home</a>
         <a class="txt_c-2 n_lnk fntw-b" href="portfolio.html">Portfolio</a>
         <a class="txt_c-2 n_lnk fntw-b" href="contact.html">Contact</a>
       </nav>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+  
     </div>
   </header>
   <br>
-  <body class="m_b t_c drk-bg fntw-200">
-    <div>
-      <h1 class="t_c txt_c-2 fntw-b fnt_sz-l">Websites</h1>
-      <p class="txt_c-2 fnt_sz-m">Here are some of the websites that I've previously worked on.</p>
-    </div>
-    <p></p>
-    <div class="sites sitesBG">
-    <ol class="site b t_lft-800">
-      <li><a class="txt_c-2 fntw-b fnt_sz-m" href="https://cadrebuilding.com/" target="_blank">Cadre</a></li>
-      <li><a class="txt_c-2 fntw-b fnt_sz-m" href="https://www.legallypinklaw.com/" target="_blank">Legally Pink Law</a></li>
-      <li><a class="txt_c-2 fntw-b fnt_sz-m" href="https://halllawlouisiana.com/" target="_blank">Hall Law Firm</a></li>
-      <li><a class="txt_c-2 fntw-b fnt_sz-m" href="https://lewislawcarolinas.com/" target="_blank">Lewis Law Firm</a></li>
-      <li><a class="txt_c-2 fntw-b fnt_sz-m" href="https://nkf-law.com" target="_blank">Needham Kepner Fish</a></li>
-      <li><a class="txt_c-2 fntw-b fnt_sz-m" href="https://wiegandattorneys.com/" target="_blank">Wiegand Attorneys</a></li>
-      <li><a class="txt_c-2 fntw-b fnt_sz-m" href="https://mtvlaw.com/" target="_blank">Van Der Veen Hartshorn & Levin</a></li>
-      <li><a class="txt_c-2 fntw-b fnt_sz-m" href="https://shellistlaw.com/" target="_blank">Shellist Law</a></li>
-      <li><a class="txt_c-2 fntw-b fnt_sz-m" href="https://levylaw.com/" target="_blank">Levy Law</a></li>
-      <li><a class="txt_c-2 fntw-b fnt_sz-m" href="https://injurynorthwest.com/" target="_blank">Emery Reddy Serious Injury Department</a></li>
-      <li><a class="txt_c-2 fntw-b fnt_sz-m" href="https://darlawllc.com/" target="_blank">Dermer Appel Ruder Attorneys at Law</a></li>
-      <li><a class="txt_c-2 fntw-b fnt_sz-m" href="https://ymsllp.com/" target="_blank">YMS</a></li>
-      <li><a class="txt_c-2 fntw-b fnt_sz-m" href="https://henrylawfirm.com/" target="_blank">Henry & Williams P.C. Attorneys at Law</a></li>
-      <li><a class="txt_c-2 fntw-b fnt_sz-m" href="https://metroatlantatreatment.com/" target="_blank">Atlanta Treatment</a></li>
-      <li><a class="txt_c-2 fntw-b fnt_sz-m" href="https://gattilaw.com/" target="_blank">The Gatti Law Firm</a></li>
-      <li><a class="txt_c-2 fntw-b fnt_sz-m" href="https://statebaradvice.com/" target="_blank">Samuel C. Bellicini</a></li>
-      <li><a class="txt_c-2 fntw-b fnt_sz-m" href="https://almazanlaw.com/" target="_blank">Almazan Law</a></li>
-      <li><a class="txt_c-2 fntw-b fnt_sz-m" href="https://grossmangreen.com/" target="_blank">Grossman Green PLLC</a></li>
-      <li><a class="txt_c-2 fntw-b fnt_sz-m" href="https://mayfieldinjury.com" target="_blank">Mayfield Law</a></li>
-    </ol>
-    </div>
+  <body class="t_c wht-bg fntw-200">
+    <section class="portfolio">
+      <div class="buble position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center">
+        <div class="my-3 p-3">
+          <h2 class="display-5 txt_c-2"> Portfolio of Websites </h2>
+          
+          <ol class="train b sitesBG">
+            <br>
+            <li><a class="txt_c-2 port fntw-b fnt_sz-m" href="https://cadrebuilding.com/" target="_blank">Cadre</a></li>
+              <li><a class="txt_c-2 port fntw-b fnt_sz-m" href="https://www.legallypinklaw.com/" target="_blank">Legally Pink Law</a></li>
+              <li><a class="txt_c-2 port fntw-b fnt_sz-m" href="https://halllawlouisiana.com/" target="_blank">Hall Law Firm</a></li>
+              <li><a class="txt_c-2 port fntw-b fnt_sz-m" href="https://lewislawcarolinas.com/" target="_blank">Lewis Law Firm</a></li>
+              <li><a class="txt_c-2 port fntw-b fnt_sz-m" href="https://nkf-law.com" target="_blank">Needham Kepner Fish</a></li>
+              <li><a class="txt_c-2 port fntw-b fnt_sz-m" href="https://wiegandattorneys.com/" target="_blank">Wiegand Attorneys</a></li>
+              <li><a class="txt_c-2 port fntw-b fnt_sz-m" href="https://mtvlaw.com/" target="_blank">Van Der Veen Hartshorn & Levin</a></li>
+              <li><a class="txt_c-2 port fntw-b fnt_sz-m" href="https://shellistlaw.com/" target="_blank">Shellist Law</a></li>
+              <li><a class="txt_c-2 port fntw-b fnt_sz-m" href="https://levylaw.com/" target="_blank">Levy Law</a></li>
+              <li><a class="txt_c-2 port fntw-b fnt_sz-m" href="https://injurynorthwest.com/" target="_blank">Emery Reddy Serious Injury Department</a></li>
+              <li><a class="txt_c-2 port fntw-b fnt_sz-m" href="https://darlawllc.com/" target="_blank">Dermer Appel Ruder Attorneys at Law</a></li>
+              <li><a class="txt_c-2 port fntw-b fnt_sz-m" href="https://ymsllp.com/" target="_blank">YMS</a></li>
+              <li><a class="txt_c-2 port fntw-b fnt_sz-m" href="https://henrylawfirm.com/" target="_blank">Henry & Williams P.C. Attorneys at Law</a></li>
+              <li><a class="txt_c-2 port fntw-b fnt_sz-m" href="https://metroatlantatreatment.com/" target="_blank">Atlanta Treatment</a></li>
+              <li><a class="txt_c-2 port fntw-b fnt_sz-m" href="https://gattilaw.com/" target="_blank">The Gatti Law Firm</a></li>
+              <li><a class="txt_c-2 port fntw-b fnt_sz-m" href="https://statebaradvice.com/" target="_blank">Samuel C. Bellicini</a></li>
+              <li><a class="txt_c-2 port fntw-b fnt_sz-m" href="https://almazanlaw.com/" target="_blank">Almazan Law</a></li>
+              <li><a class="txt_c-2 port fntw-b fnt_sz-m" href="https://grossmangreen.com/" target="_blank">Grossman Green PLLC</a></li>
+              <li><a class="txt_c-2 port fntw-b fnt_sz-m" href="https://mayfieldinjury.com" target="_blank">Mayfield Law</a></li>
+              <br>
+          </ol>
+        </div>
+        <!-- <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div> -->
+      </div>
+    </section>
+    
+  
 
-    <hr>
-
-    <div>
-      <h1 class="t_c txt_c-2 fntw-b fnt_sz-l">React</h1>
-      <div class="react sitesBG">
-        <ol class="site b t_lft-800">
-          <li><a class="txt_c-2 fntw-b fnt_sz-m" href="https://tdscottjr.github.io/Increase_Decrease/" target="_blank">Increase Decrease Button Concept</a></li>
-          <li><a class="txt_c-2 fntw-b fnt_sz-m" href="https://tdscottjr.github.io/ToDoApp/" target="_blank">To Do App</a></li>
+  <section class="portfolio_pt2">
+    <div class="buble position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center">
+      <div class="my-3 p-3">
+        <h2 class="display-5 txt_c-2"> React </h2>
+        <div class="react sitesBG">
+        <ol class="train b">
+          <li><a class="txt_c-2 port fntw-b fnt_sz-m" href="https://tdscottjr.github.io/Increase_Decrease/" target="_blank">Increase Decrease Button Concept</a></li>
+                <li><a class="txt_c-2 port fntw-b fnt_sz-m" href="https://tdscottjr.github.io/ToDoApp/" target="_blank">To Do App</a></li>
         </ol>
         </div>
-    </div>
 
-    <hr>
-
-    <div>
-      <h1 class="t_c txt_c-2 fntw-b fnt_sz-l">Games</h1>
-      <div class="games sitesBG">
-        <ol class="site b t_lft-800">
-          <li><a class="txt_c-2 fntw-b fnt_sz-m" href="https://tdscottjr.github.io/Regular-Show-Theme-Space-Invavders/" target="_blank">Space Invaders (Regular Show Themed)</a></li>
-        </ol>
+        <div class="my-3 p-3">
+          <h2 class="display-5 txt_c-2"> Games </h2>
+          <div class="games sitesBG">
+          <ol class="train b">
+            <li><a class="txt_c-2 port fntw-b fnt_sz-m" href="https://tdscottjr.github.io/Regular-Show-Theme-Space-Invavders/" target="_blank">Space Invaders (Regular Show Themed)</a></li>
+          </ol>
         </div>
-    </div>
 
-    <hr>
-
-    <div>
-      <h1 class="t_c txt_c-2 fntw-b fnt_sz-l">CSS Animations</h1>
-      <div class="annimations sitesBG">
-        <ol class="site b t_lft-800">
-          <li><a class="txt_c-2 fntw-b fnt_sz-m" href="https://tdscottjr.github.io/Animated-Nav/#" target="_blank">Animated Nav Bar</a></li>
-          <li><a class="txt_c-2 fntw-b fnt_sz-m" href="https://tdscottjr.github.io/Wave-Sign-In/" target="_blank">Wave Animated Login</a></li>
-        </ol>
+        <div class="my-3 p-3">
+          <h2 class="display-5 txt_c-2"> CSS Animations </h2>
+          <div class="animations sitesBG">
+          <ol class="train b">
+            <li><a class="txt_c-2 port fntw-b fnt_sz-m" href="https://tdscottjr.github.io/Animated-Nav/#" target="_blank">Animated Nav Bar</a></li>
+            <li><a class="txt_c-2 port fntw-b fnt_sz-m" href="https://tdscottjr.github.io/Wave-Sign-In/" target="_blank">Wave Animated Login</a></li>
+          </ol>
         </div>
+        
+      </div>
+    </section>
+
+    <div class="container">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+        <p class="footer txt_c-1">
+          <strong>©</strong>
+          <script type="text/javascript">document.write( new Date().getFullYear() );</script>
+          <strong>Tyrone</strong>  
+        </p>
+      </footer>
     </div>
-
-    <div class="projects">
-      <ol class="b">
-
-      </ol>
-    </div>
-
-
-  </body>
+    
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+      </script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    </body>
 </html>
